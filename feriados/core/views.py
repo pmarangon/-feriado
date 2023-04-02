@@ -1,4 +1,6 @@
 from django.shortcuts import render
+from datetime import today
+dataatual= datetime.today
 def natal(request):
  contexto = {'natal': True,
  'carnaval': False}
